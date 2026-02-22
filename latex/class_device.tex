@@ -1,0 +1,157 @@
+\doxysection{Device Class Reference}
+\hypertarget{class_device}{}\label{class_device}\index{Device@{Device}}
+
+
+{\ttfamily \#include $<$device.\+h$>$}
+
+
+
+Inheritance diagram for Device\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{class_device__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_device_a64ba12dcc5f4267486c5d545d04dcf68}{Device}} ()
+\item 
+virtual \mbox{\hyperlink{class_device_a9dabc419c8d8df3a686c33ce042bc99a}{\texorpdfstring{$\sim$}{\string~}\+Device}} ()
+\item 
+void \mbox{\hyperlink{class_device_ad38266d8ee53bbe60280a0fc09b0ec90}{set\+Name}} (const QString \&new\+Name)
+\item 
+QString \mbox{\hyperlink{class_device_a794c915dc4c48a34a2d8ad02c7ca413f}{get\+Name}} () const
+\item 
+bool \mbox{\hyperlink{class_device_a03b81a1e311dffbbc0625db1398987a6}{get\+Status}} () const
+\item 
+double \mbox{\hyperlink{class_device_addd76b5e26aa0afe659f06079baf4907}{get\+Consumption\+Per\+Hour}} () const
+\item 
+virtual void \mbox{\hyperlink{class_device_a6b0a2674f57504a5df08f62e85d98578}{turn\+On}} ()
+\item 
+virtual void \mbox{\hyperlink{class_device_a94ab5a01517645d57f8ddbf7218bde85}{turn\+Off}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+QString \mbox{\hyperlink{class_device_adedbff57d1590174c5e9ebf9669b1c2a}{name}}
+\item 
+bool \mbox{\hyperlink{class_device_a3465e55b6636cdd1d7444742d1cd9b65}{is\+On}}
+\item 
+double \mbox{\hyperlink{class_device_a763316ae2f800499fd0b801f148c85d8}{consumption\+Per\+Hour}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_device_a64ba12dcc5f4267486c5d545d04dcf68}\index{Device@{Device}!Device@{Device}}
+\index{Device@{Device}!Device@{Device}}
+\doxysubsubsection{\texorpdfstring{Device()}{Device()}}
+{\footnotesize\ttfamily \label{class_device_a64ba12dcc5f4267486c5d545d04dcf68} 
+Device\+::\+Device (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_device_a9dabc419c8d8df3a686c33ce042bc99a}\index{Device@{Device}!````~Device@{\texorpdfstring{$\sim$}{\string~}Device}}
+\index{````~Device@{\texorpdfstring{$\sim$}{\string~}Device}!Device@{Device}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Device()}{\string~Device()}}
+{\footnotesize\ttfamily \label{class_device_a9dabc419c8d8df3a686c33ce042bc99a} 
+Device\+::\texorpdfstring{$\sim$}{\string~}\+Device (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_device_addd76b5e26aa0afe659f06079baf4907}\index{Device@{Device}!getConsumptionPerHour@{getConsumptionPerHour}}
+\index{getConsumptionPerHour@{getConsumptionPerHour}!Device@{Device}}
+\doxysubsubsection{\texorpdfstring{getConsumptionPerHour()}{getConsumptionPerHour()}}
+{\footnotesize\ttfamily \label{class_device_addd76b5e26aa0afe659f06079baf4907} 
+double Device\+::get\+Consumption\+Per\+Hour (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\Hypertarget{class_device_a794c915dc4c48a34a2d8ad02c7ca413f}\index{Device@{Device}!getName@{getName}}
+\index{getName@{getName}!Device@{Device}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily \label{class_device_a794c915dc4c48a34a2d8ad02c7ca413f} 
+QString Device\+::get\+Name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{class_device_a794c915dc4c48a34a2d8ad02c7ca413f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_device_a03b81a1e311dffbbc0625db1398987a6}\index{Device@{Device}!getStatus@{getStatus}}
+\index{getStatus@{getStatus}!Device@{Device}}
+\doxysubsubsection{\texorpdfstring{getStatus()}{getStatus()}}
+{\footnotesize\ttfamily \label{class_device_a03b81a1e311dffbbc0625db1398987a6} 
+bool Device\+::get\+Status (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\Hypertarget{class_device_ad38266d8ee53bbe60280a0fc09b0ec90}\index{Device@{Device}!setName@{setName}}
+\index{setName@{setName}!Device@{Device}}
+\doxysubsubsection{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily \label{class_device_ad38266d8ee53bbe60280a0fc09b0ec90} 
+void Device\+::set\+Name (\begin{DoxyParamCaption}\item[{const QString \&}]{new\+Name}{}\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{class_device_ad38266d8ee53bbe60280a0fc09b0ec90_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_device_a94ab5a01517645d57f8ddbf7218bde85}\index{Device@{Device}!turnOff@{turnOff}}
+\index{turnOff@{turnOff}!Device@{Device}}
+\doxysubsubsection{\texorpdfstring{turnOff()}{turnOff()}}
+{\footnotesize\ttfamily \label{class_device_a94ab5a01517645d57f8ddbf7218bde85} 
+void Device\+::turn\+Off (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{class_device_a94ab5a01517645d57f8ddbf7218bde85_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_device_a6b0a2674f57504a5df08f62e85d98578}\index{Device@{Device}!turnOn@{turnOn}}
+\index{turnOn@{turnOn}!Device@{Device}}
+\doxysubsubsection{\texorpdfstring{turnOn()}{turnOn()}}
+{\footnotesize\ttfamily \label{class_device_a6b0a2674f57504a5df08f62e85d98578} 
+void Device\+::turn\+On (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{class_device_a6b0a2674f57504a5df08f62e85d98578_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_device_a763316ae2f800499fd0b801f148c85d8}\index{Device@{Device}!consumptionPerHour@{consumptionPerHour}}
+\index{consumptionPerHour@{consumptionPerHour}!Device@{Device}}
+\doxysubsubsection{\texorpdfstring{consumptionPerHour}{consumptionPerHour}}
+{\footnotesize\ttfamily \label{class_device_a763316ae2f800499fd0b801f148c85d8} 
+double Device\+::consumption\+Per\+Hour\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_device_a3465e55b6636cdd1d7444742d1cd9b65}\index{Device@{Device}!isOn@{isOn}}
+\index{isOn@{isOn}!Device@{Device}}
+\doxysubsubsection{\texorpdfstring{isOn}{isOn}}
+{\footnotesize\ttfamily \label{class_device_a3465e55b6636cdd1d7444742d1cd9b65} 
+bool Device\+::is\+On\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_device_adedbff57d1590174c5e9ebf9669b1c2a}\index{Device@{Device}!name@{name}}
+\index{name@{name}!Device@{Device}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily \label{class_device_adedbff57d1590174c5e9ebf9669b1c2a} 
+QString Device\+::name\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{device_8h}{device.\+h}}\item 
+\mbox{\hyperlink{device_8cpp}{device.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,142 @@
+\doxysection{TV Class Reference}
+\hypertarget{class_t_v}{}\label{class_t_v}\index{TV@{TV}}
+
+
+{\ttfamily \#include $<$tv.\+h$>$}
+
+
+
+Inheritance diagram for TV\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=127pt]{class_t_v__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for TV\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=127pt]{class_t_v__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_t_v_a31f99f4d7be9560151d9da4c2e40ed8f}{TV}} (const QString \&\mbox{\hyperlink{class_device_adedbff57d1590174c5e9ebf9669b1c2a}{name}}="{}TV"{}, double consumption=0.\+0, int channel=0, int volume=0)
+\item 
+void \mbox{\hyperlink{class_t_v_a7b97575ead42873a5961d347d5f064cc}{set\+Channel}} (int new\+Channel)
+\item 
+int \mbox{\hyperlink{class_t_v_a0e285fd306a545f8d7ab15d07896cfc4}{get\+Channel}} () const
+\item 
+void \mbox{\hyperlink{class_t_v_ad2be14681e26903174f19931de568472}{set\+Volume}} (int new\+Volume)
+\item 
+int \mbox{\hyperlink{class_t_v_adc5324ebda81009eacf34ef5455e52b2}{get\+Volume}} () const
+\item 
+void \mbox{\hyperlink{class_t_v_a07997aec3ed60a2b812bc43b12f07561}{set\+Status}} (bool status)
+\item 
+bool \mbox{\hyperlink{class_t_v_a0cce69c25a09357be3b0c53e3d6deac0}{get\+Status}} () const
+\item 
+QString \mbox{\hyperlink{class_t_v_adcbb76762d8f44a30f593fa745318907}{show\+Details}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_device}{Device}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_device_a64ba12dcc5f4267486c5d545d04dcf68}{Device}} ()
+\item 
+virtual \mbox{\hyperlink{class_device_a9dabc419c8d8df3a686c33ce042bc99a}{\texorpdfstring{$\sim$}{\string~}\+Device}} ()
+\item 
+void \mbox{\hyperlink{class_device_ad38266d8ee53bbe60280a0fc09b0ec90}{set\+Name}} (const QString \&new\+Name)
+\item 
+QString \mbox{\hyperlink{class_device_a794c915dc4c48a34a2d8ad02c7ca413f}{get\+Name}} () const
+\item 
+bool \mbox{\hyperlink{class_device_a03b81a1e311dffbbc0625db1398987a6}{get\+Status}} () const
+\item 
+double \mbox{\hyperlink{class_device_addd76b5e26aa0afe659f06079baf4907}{get\+Consumption\+Per\+Hour}} () const
+\item 
+virtual void \mbox{\hyperlink{class_device_a6b0a2674f57504a5df08f62e85d98578}{turn\+On}} ()
+\item 
+virtual void \mbox{\hyperlink{class_device_a94ab5a01517645d57f8ddbf7218bde85}{turn\+Off}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_device}{Device}}}
+\begin{DoxyCompactItemize}
+\item 
+QString \mbox{\hyperlink{class_device_adedbff57d1590174c5e9ebf9669b1c2a}{name}}
+\item 
+bool \mbox{\hyperlink{class_device_a3465e55b6636cdd1d7444742d1cd9b65}{is\+On}}
+\item 
+double \mbox{\hyperlink{class_device_a763316ae2f800499fd0b801f148c85d8}{consumption\+Per\+Hour}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_t_v_a31f99f4d7be9560151d9da4c2e40ed8f}\index{TV@{TV}!TV@{TV}}
+\index{TV@{TV}!TV@{TV}}
+\doxysubsubsection{\texorpdfstring{TV()}{TV()}}
+{\footnotesize\ttfamily \label{class_t_v_a31f99f4d7be9560151d9da4c2e40ed8f} 
+TV\+::\+TV (\begin{DoxyParamCaption}\item[{const QString \&}]{name}{ = {\ttfamily "{}TV"{}}, }\item[{double}]{consumption}{ = {\ttfamily 0.0}, }\item[{int}]{channel}{ = {\ttfamily 0}, }\item[{int}]{volume}{ = {\ttfamily 0}}\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{class_t_v_a31f99f4d7be9560151d9da4c2e40ed8f_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_t_v_a0e285fd306a545f8d7ab15d07896cfc4}\index{TV@{TV}!getChannel@{getChannel}}
+\index{getChannel@{getChannel}!TV@{TV}}
+\doxysubsubsection{\texorpdfstring{getChannel()}{getChannel()}}
+{\footnotesize\ttfamily \label{class_t_v_a0e285fd306a545f8d7ab15d07896cfc4} 
+int TV\+::get\+Channel (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\Hypertarget{class_t_v_a0cce69c25a09357be3b0c53e3d6deac0}\index{TV@{TV}!getStatus@{getStatus}}
+\index{getStatus@{getStatus}!TV@{TV}}
+\doxysubsubsection{\texorpdfstring{getStatus()}{getStatus()}}
+{\footnotesize\ttfamily \label{class_t_v_a0cce69c25a09357be3b0c53e3d6deac0} 
+bool TV\+::get\+Status (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\Hypertarget{class_t_v_adc5324ebda81009eacf34ef5455e52b2}\index{TV@{TV}!getVolume@{getVolume}}
+\index{getVolume@{getVolume}!TV@{TV}}
+\doxysubsubsection{\texorpdfstring{getVolume()}{getVolume()}}
+{\footnotesize\ttfamily \label{class_t_v_adc5324ebda81009eacf34ef5455e52b2} 
+int TV\+::get\+Volume (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\Hypertarget{class_t_v_a7b97575ead42873a5961d347d5f064cc}\index{TV@{TV}!setChannel@{setChannel}}
+\index{setChannel@{setChannel}!TV@{TV}}
+\doxysubsubsection{\texorpdfstring{setChannel()}{setChannel()}}
+{\footnotesize\ttfamily \label{class_t_v_a7b97575ead42873a5961d347d5f064cc} 
+void TV\+::set\+Channel (\begin{DoxyParamCaption}\item[{int}]{new\+Channel}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_v_a07997aec3ed60a2b812bc43b12f07561}\index{TV@{TV}!setStatus@{setStatus}}
+\index{setStatus@{setStatus}!TV@{TV}}
+\doxysubsubsection{\texorpdfstring{setStatus()}{setStatus()}}
+{\footnotesize\ttfamily \label{class_t_v_a07997aec3ed60a2b812bc43b12f07561} 
+void TV\+::set\+Status (\begin{DoxyParamCaption}\item[{bool}]{status}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_v_ad2be14681e26903174f19931de568472}\index{TV@{TV}!setVolume@{setVolume}}
+\index{setVolume@{setVolume}!TV@{TV}}
+\doxysubsubsection{\texorpdfstring{setVolume()}{setVolume()}}
+{\footnotesize\ttfamily \label{class_t_v_ad2be14681e26903174f19931de568472} 
+void TV\+::set\+Volume (\begin{DoxyParamCaption}\item[{int}]{new\+Volume}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_v_adcbb76762d8f44a30f593fa745318907}\index{TV@{TV}!showDetails@{showDetails}}
+\index{showDetails@{showDetails}!TV@{TV}}
+\doxysubsubsection{\texorpdfstring{showDetails()}{showDetails()}}
+{\footnotesize\ttfamily \label{class_t_v_adcbb76762d8f44a30f593fa745318907} 
+QString TV\+::show\+Details (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{tv_8h}{tv.\+h}}\item 
+\mbox{\hyperlink{tv_8cpp}{tv.\+cpp}}\end{DoxyCompactItemize}

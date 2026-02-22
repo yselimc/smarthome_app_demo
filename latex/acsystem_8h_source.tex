@@ -1,0 +1,29 @@
+\doxysection{acsystem.\+h}
+\hypertarget{acsystem_8h_source}{}\label{acsystem_8h_source}\mbox{\hyperlink{acsystem_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ ACSYSTEM\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ ACSYSTEM\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{device_8h}{Device.h}}"{}}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_a_c_system}{ACSystem}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_device}{Device}}\ \{}
+\DoxyCodeLine{00007\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00008\ \ \ \ \ \textcolor{keywordtype}{double}\ temperature;}
+\DoxyCodeLine{00009\ \ \ \ \ \textcolor{keywordtype}{int}\ fanSpeed;\ \textcolor{comment}{//\ 1-\/5\ scale}}
+\DoxyCodeLine{00010\ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ acCounter;\ \textcolor{comment}{//\ Sayaç\ ekledik}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00013\ \ \ \ \ \mbox{\hyperlink{class_a_c_system_a81bb6f7020d685d41af4ba7a33868225}{ACSystem}}(\textcolor{keyword}{const}\ QString\&\ \mbox{\hyperlink{class_device_adedbff57d1590174c5e9ebf9669b1c2a}{name}}\ =\ \textcolor{stringliteral}{"{}ACSystem"{}},\ \textcolor{keywordtype}{double}\ consumption\ =\ 0,\ \textcolor{keywordtype}{double}\ temperature\ =\ 0.0,\ \textcolor{keywordtype}{int}\ fanSpeed\ =\ 0);}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_a_c_system_a7d82c91adc28ed5dc21d9b670a2a7d90}{setTemperature}}(\textcolor{keywordtype}{double}\ newTemperature);}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_a_c_system_a83ae9c8025f60ca714ca86688c713295}{setFanSpeed}}(\textcolor{keywordtype}{int}\ newSpeed);}
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{class_a_c_system_a581aef5e2ec615af093df383b3cfcf36}{getTemperature}}()\ \textcolor{keyword}{const};\ \ \textcolor{comment}{//\ Getter\ for\ temperature}}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_a_c_system_a4798e067c8bd2192f86e01884e05bb37}{getFanSpeed}}()\ \textcolor{keyword}{const};\ \ \ \ \ \ \ \textcolor{comment}{//\ Getter\ for\ fanSpeed}}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_a_c_system_a4fe46ad421d78b2396843ff31f66e933}{setStatus}}(\textcolor{keywordtype}{bool}\ status);\ \ \ \textcolor{comment}{//\ Set\ status\ (turn\ AC\ on/off)}}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_a_c_system_a9420a5c07c58d2c548113570a61f3d90}{getStatus}}()\ \textcolor{keyword}{const};\ \ \ \ \ \ \ \ \textcolor{comment}{//\ Get\ status\ (is\ AC\ on/off)}}
+\DoxyCodeLine{00021\ \ \ \ \ QString\ \mbox{\hyperlink{class_a_c_system_a6992a9c1852f476e7714bdec99a8d9a6}{showDetails}}()\ \textcolor{keyword}{const};\ \ \ \textcolor{comment}{//\ showDetails\ fonksiyonu\ QString\ döndürecek}}
+\DoxyCodeLine{00022\ \};}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ ACSYSTEM\_H}}
+
+\end{DoxyCode}

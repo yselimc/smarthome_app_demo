@@ -1,0 +1,43 @@
+\doxysection{device.\+h}
+\hypertarget{device_8h_source}{}\label{device_8h_source}\mbox{\hyperlink{device_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ DEVICE\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ DEVICE\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <QString>}\ \textcolor{comment}{//\ Use\ QString\ for\ Qt\ compatibility}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_device}{Device}}\ \{}
+\DoxyCodeLine{00007\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00008\ \ \ \ \ \textcolor{comment}{//\ Default\ constructor}}
+\DoxyCodeLine{00009\ \ \ \ \ \mbox{\hyperlink{class_device_a64ba12dcc5f4267486c5d545d04dcf68}{Device}}();}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \ \ \ \ \textcolor{comment}{//\ Virtual\ destructor}}
+\DoxyCodeLine{00012\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{class_device_a9dabc419c8d8df3a686c33ce042bc99a}{\string~Device}}();}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{comment}{//\ Setter\ for\ name}}
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_device_ad38266d8ee53bbe60280a0fc09b0ec90}{setName}}(\textcolor{keyword}{const}\ QString\&\ newName);}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{comment}{//\ Getter\ for\ name}}
+\DoxyCodeLine{00018\ \ \ \ \ QString\ \mbox{\hyperlink{class_device_a794c915dc4c48a34a2d8ad02c7ca413f}{getName}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{comment}{//\ Getter\ for\ device\ status}}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_device_a03b81a1e311dffbbc0625db1398987a6}{getStatus}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{comment}{//\ Getter\ for\ consumption\ per\ hour}}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{class_device_addd76b5e26aa0afe659f06079baf4907}{getConsumptionPerHour}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{comment}{//\ Turn\ on\ the\ device}}
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_device_a6b0a2674f57504a5df08f62e85d98578}{turnOn}}();}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{comment}{//\ Turn\ off\ the\ device}}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_device_a94ab5a01517645d57f8ddbf7218bde85}{turnOff}}();}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00033\ \ \ \ \ QString\ \mbox{\hyperlink{class_device_adedbff57d1590174c5e9ebf9669b1c2a}{name}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Device\ name}}
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_device_a3465e55b6636cdd1d7444742d1cd9b65}{isOn}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Device\ status\ (on/off)}}
+\DoxyCodeLine{00035\ \ \ \ \ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{class_device_a763316ae2f800499fd0b801f148c85d8}{consumptionPerHour}};\ \ \ \ \textcolor{comment}{//\ Power\ consumption\ per\ hour}}
+\DoxyCodeLine{00036\ \};}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00038\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ DEVICE\_H}}
+
+\end{DoxyCode}

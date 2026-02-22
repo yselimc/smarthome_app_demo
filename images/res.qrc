@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/images2">
+        <file>homebackplan.jpg</file>
+    </qresource>
+</RCC>

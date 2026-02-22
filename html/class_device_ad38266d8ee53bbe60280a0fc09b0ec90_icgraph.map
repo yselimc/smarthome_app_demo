@@ -1,0 +1,9 @@
+<map id="Device::setName" name="Device::setName">
+<area shape="rect" id="Node000001" title=" " alt="" coords="211,56,334,83"/>
+<area shape="rect" id="Node000002" href="$class_a_c_system.html#a81bb6f7020d685d41af4ba7a33868225" title=" " alt="" coords="5,5,163,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,54,136,35,137,30,206,49"/>
+<area shape="rect" id="Node000003" href="$class_lights.html#a2faa007236ac46b409fcbf54aa842b57" title=" " alt="" coords="34,56,134,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="195,72,134,72,134,67,195,67"/>
+<area shape="rect" id="Node000004" href="$class_t_v.html#a31f99f4d7be9560151d9da4c2e40ed8f" title=" " alt="" coords="53,107,115,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="206,90,116,114,115,109,204,85"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="lights.cpp" name="lights.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="50,5,127,32"/>
+<area shape="rect" id="Node000002" href="$lights_8h.html" title=" " alt="" coords="8,80,76,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,34,60,68,56,66,78,31"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="100,80,171,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="99,31,121,66,117,68,95,34"/>
+<area shape="rect" id="Node000003" href="$device_8h.html" title=" " alt="" coords="5,155,79,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="45,107,45,139,39,139,39,107"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="9,229,75,256"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="45,182,45,214,39,214,39,182"/>
+</map>

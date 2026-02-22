@@ -1,0 +1,196 @@
+\doxysection{Lights Class Reference}
+\hypertarget{class_lights}{}\label{class_lights}\index{Lights@{Lights}}
+
+
+{\ttfamily \#include $<$lights.\+h$>$}
+
+
+
+Inheritance diagram for Lights\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=127pt]{class_lights__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Lights\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=127pt]{class_lights__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_lights_a2faa007236ac46b409fcbf54aa842b57}{Lights}} (double consumption, const QString \&default\+Color="{}White"{}, int default\+Brightness=50)
+\item 
+void \mbox{\hyperlink{class_lights_af763ca5a25513fa0950e76eba5d85901}{set\+Color}} (const QString \&new\+Color)
+\item 
+void \mbox{\hyperlink{class_lights_aa01f0689cf46546a5fee70735aa5921a}{set\+Brightness}} (int new\+Brightness)
+\item 
+void \mbox{\hyperlink{class_lights_a841e60fa526be3b3163246b9f4f9d272}{set\+Status}} (bool status)
+\item 
+QString \mbox{\hyperlink{class_lights_ab9514e803d9d4204ffcc15e2636ec012}{get\+Color}} () const
+\item 
+int \mbox{\hyperlink{class_lights_a09a1796b5e9b92e31ecb644405a75030}{get\+Brightness}} () const
+\item 
+bool \mbox{\hyperlink{class_lights_aa0b63187e26d3ce1bc844ec284588a01}{is\+On}} () const
+\item 
+void \mbox{\hyperlink{class_lights_a50931f6437b596ce2984b2157b31459e}{show\+Details}} () const
+\item 
+QString \mbox{\hyperlink{class_lights_ac2b41c8b55d90041e1405bc4a1beaff9}{get\+Light\+Info}} () const
+\item 
+bool \mbox{\hyperlink{class_lights_affe38f10ac242db1f67229703ca31b06}{get\+Status}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_device}{Device}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_device_a64ba12dcc5f4267486c5d545d04dcf68}{Device}} ()
+\item 
+virtual \mbox{\hyperlink{class_device_a9dabc419c8d8df3a686c33ce042bc99a}{\texorpdfstring{$\sim$}{\string~}\+Device}} ()
+\item 
+void \mbox{\hyperlink{class_device_ad38266d8ee53bbe60280a0fc09b0ec90}{set\+Name}} (const QString \&new\+Name)
+\item 
+QString \mbox{\hyperlink{class_device_a794c915dc4c48a34a2d8ad02c7ca413f}{get\+Name}} () const
+\item 
+bool \mbox{\hyperlink{class_device_a03b81a1e311dffbbc0625db1398987a6}{get\+Status}} () const
+\item 
+double \mbox{\hyperlink{class_device_addd76b5e26aa0afe659f06079baf4907}{get\+Consumption\+Per\+Hour}} () const
+\item 
+virtual void \mbox{\hyperlink{class_device_a6b0a2674f57504a5df08f62e85d98578}{turn\+On}} ()
+\item 
+virtual void \mbox{\hyperlink{class_device_a94ab5a01517645d57f8ddbf7218bde85}{turn\+Off}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{class_lights_ae2dc267d216acf7bb0179a74e5cd15a5}{light\+Counter}} = 0
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_device}{Device}}}
+\begin{DoxyCompactItemize}
+\item 
+QString \mbox{\hyperlink{class_device_adedbff57d1590174c5e9ebf9669b1c2a}{name}}
+\item 
+bool \mbox{\hyperlink{class_device_a3465e55b6636cdd1d7444742d1cd9b65}{is\+On}}
+\item 
+double \mbox{\hyperlink{class_device_a763316ae2f800499fd0b801f148c85d8}{consumption\+Per\+Hour}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_lights_a2faa007236ac46b409fcbf54aa842b57}\index{Lights@{Lights}!Lights@{Lights}}
+\index{Lights@{Lights}!Lights@{Lights}}
+\doxysubsubsection{\texorpdfstring{Lights()}{Lights()}}
+{\footnotesize\ttfamily \label{class_lights_a2faa007236ac46b409fcbf54aa842b57} 
+Lights\+::\+Lights (\begin{DoxyParamCaption}\item[{double}]{consumption}{, }\item[{const QString \&}]{default\+Color}{ = {\ttfamily "{}White"{}}, }\item[{int}]{default\+Brightness}{ = {\ttfamily 50}}\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=283pt]{class_lights_a2faa007236ac46b409fcbf54aa842b57_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_lights_a09a1796b5e9b92e31ecb644405a75030}\index{Lights@{Lights}!getBrightness@{getBrightness}}
+\index{getBrightness@{getBrightness}!Lights@{Lights}}
+\doxysubsubsection{\texorpdfstring{getBrightness()}{getBrightness()}}
+{\footnotesize\ttfamily \label{class_lights_a09a1796b5e9b92e31ecb644405a75030} 
+int Lights\+::get\+Brightness (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\Hypertarget{class_lights_ab9514e803d9d4204ffcc15e2636ec012}\index{Lights@{Lights}!getColor@{getColor}}
+\index{getColor@{getColor}!Lights@{Lights}}
+\doxysubsubsection{\texorpdfstring{getColor()}{getColor()}}
+{\footnotesize\ttfamily \label{class_lights_ab9514e803d9d4204ffcc15e2636ec012} 
+QString Lights\+::get\+Color (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\Hypertarget{class_lights_ac2b41c8b55d90041e1405bc4a1beaff9}\index{Lights@{Lights}!getLightInfo@{getLightInfo}}
+\index{getLightInfo@{getLightInfo}!Lights@{Lights}}
+\doxysubsubsection{\texorpdfstring{getLightInfo()}{getLightInfo()}}
+{\footnotesize\ttfamily \label{class_lights_ac2b41c8b55d90041e1405bc4a1beaff9} 
+QString Lights\+::get\+Light\+Info (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{class_lights_ac2b41c8b55d90041e1405bc4a1beaff9_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_lights_affe38f10ac242db1f67229703ca31b06}\index{Lights@{Lights}!getStatus@{getStatus}}
+\index{getStatus@{getStatus}!Lights@{Lights}}
+\doxysubsubsection{\texorpdfstring{getStatus()}{getStatus()}}
+{\footnotesize\ttfamily \label{class_lights_affe38f10ac242db1f67229703ca31b06} 
+bool Lights\+::get\+Status (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\Hypertarget{class_lights_aa0b63187e26d3ce1bc844ec284588a01}\index{Lights@{Lights}!isOn@{isOn}}
+\index{isOn@{isOn}!Lights@{Lights}}
+\doxysubsubsection{\texorpdfstring{isOn()}{isOn()}}
+{\footnotesize\ttfamily \label{class_lights_aa0b63187e26d3ce1bc844ec284588a01} 
+bool Lights\+::is\+On (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=287pt]{class_lights_aa0b63187e26d3ce1bc844ec284588a01_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_lights_aa01f0689cf46546a5fee70735aa5921a}\index{Lights@{Lights}!setBrightness@{setBrightness}}
+\index{setBrightness@{setBrightness}!Lights@{Lights}}
+\doxysubsubsection{\texorpdfstring{setBrightness()}{setBrightness()}}
+{\footnotesize\ttfamily \label{class_lights_aa01f0689cf46546a5fee70735aa5921a} 
+void Lights\+::set\+Brightness (\begin{DoxyParamCaption}\item[{int}]{new\+Brightness}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_lights_af763ca5a25513fa0950e76eba5d85901}\index{Lights@{Lights}!setColor@{setColor}}
+\index{setColor@{setColor}!Lights@{Lights}}
+\doxysubsubsection{\texorpdfstring{setColor()}{setColor()}}
+{\footnotesize\ttfamily \label{class_lights_af763ca5a25513fa0950e76eba5d85901} 
+void Lights\+::set\+Color (\begin{DoxyParamCaption}\item[{const QString \&}]{new\+Color}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_lights_a841e60fa526be3b3163246b9f4f9d272}\index{Lights@{Lights}!setStatus@{setStatus}}
+\index{setStatus@{setStatus}!Lights@{Lights}}
+\doxysubsubsection{\texorpdfstring{setStatus()}{setStatus()}}
+{\footnotesize\ttfamily \label{class_lights_a841e60fa526be3b3163246b9f4f9d272} 
+void Lights\+::set\+Status (\begin{DoxyParamCaption}\item[{bool}]{status}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_lights_a50931f6437b596ce2984b2157b31459e}\index{Lights@{Lights}!showDetails@{showDetails}}
+\index{showDetails@{showDetails}!Lights@{Lights}}
+\doxysubsubsection{\texorpdfstring{showDetails()}{showDetails()}}
+{\footnotesize\ttfamily \label{class_lights_a50931f6437b596ce2984b2157b31459e} 
+void Lights\+::show\+Details (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{class_lights_a50931f6437b596ce2984b2157b31459e_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_lights_ae2dc267d216acf7bb0179a74e5cd15a5}\index{Lights@{Lights}!lightCounter@{lightCounter}}
+\index{lightCounter@{lightCounter}!Lights@{Lights}}
+\doxysubsubsection{\texorpdfstring{lightCounter}{lightCounter}}
+{\footnotesize\ttfamily \label{class_lights_ae2dc267d216acf7bb0179a74e5cd15a5} 
+int Lights\+::light\+Counter = 0\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lights_8h}{lights.\+h}}\item 
+\mbox{\hyperlink{lights_8cpp}{lights.\+cpp}}\end{DoxyCompactItemize}

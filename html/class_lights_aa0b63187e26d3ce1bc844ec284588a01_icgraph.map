@@ -1,0 +1,7 @@
+<map id="Lights::isOn" name="Lights::isOn">
+<area shape="rect" id="Node000001" title=" " alt="" coords="190,31,281,57"/>
+<area shape="rect" id="Node000002" href="$class_lights.html#ac2b41c8b55d90041e1405bc4a1beaff9" title=" " alt="" coords="7,5,140,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,37,140,32,140,26,175,32"/>
+<area shape="rect" id="Node000003" href="$class_lights.html#a50931f6437b596ce2984b2157b31459e" title=" " alt="" coords="5,56,142,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,56,142,61,141,56,174,51"/>
+</map>

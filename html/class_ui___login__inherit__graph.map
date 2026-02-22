@@ -1,0 +1,6 @@
+<map id="Ui_Login" name="Ui_Login">
+<area shape="rect" id="Node000001" title=" " alt="" coords="6,5,78,32"/>
+<area shape="rect" id="Node000002" href="$class_ui_1_1_login.html" title=" " alt="" coords="5,80,79,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="36,47,38,79,32,80,31,48"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="53,48,52,80,46,79,48,47"/>
+</map>
