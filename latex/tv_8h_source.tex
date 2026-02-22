@@ -1,0 +1,31 @@
+\doxysection{tv.\+h}
+\hypertarget{tv_8h_source}{}\label{tv_8h_source}\mbox{\hyperlink{tv_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ TV\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ TV\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{device_8h}{Device.h}}"{}}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_t_v}{TV}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_device}{Device}}\ \{}
+\DoxyCodeLine{00007\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00008\ \ \ \ \ \textcolor{keywordtype}{int}\ channel;}
+\DoxyCodeLine{00009\ \ \ \ \ \textcolor{keywordtype}{int}\ volume;\ \textcolor{comment}{//\ 0-\/100}}
+\DoxyCodeLine{00010\ \ \ \ \ \textcolor{keywordtype}{bool}\ status;}
+\DoxyCodeLine{00011\ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ tvCounter;}
+\DoxyCodeLine{00012\ \ \ \ \ \textcolor{keywordtype}{double}\ consumption;\ \textcolor{comment}{//\ TV'ye\ özel\ tüketim\ değeri}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00015\ \ \ \ \ \mbox{\hyperlink{class_t_v_a31f99f4d7be9560151d9da4c2e40ed8f}{TV}}(\textcolor{keyword}{const}\ QString\&\ \mbox{\hyperlink{class_device_adedbff57d1590174c5e9ebf9669b1c2a}{name}}\ =\ \textcolor{stringliteral}{"{}TV"{}},\ \textcolor{keywordtype}{double}\ consumption\ =\ 0.0,\ \textcolor{keywordtype}{int}\ channel\ =\ 0,\ \textcolor{keywordtype}{int}\ volume\ =\ 0);}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_t_v_a7b97575ead42873a5961d347d5f064cc}{setChannel}}(\textcolor{keywordtype}{int}\ newChannel);}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_t_v_a0e285fd306a545f8d7ab15d07896cfc4}{getChannel}}()\ \textcolor{keyword}{const};\ \textcolor{comment}{//\ Yeni\ getter\ metodu}}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_t_v_ad2be14681e26903174f19931de568472}{setVolume}}(\textcolor{keywordtype}{int}\ newVolume);}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_t_v_adc5324ebda81009eacf34ef5455e52b2}{getVolume}}()\ \textcolor{keyword}{const};\ \ \textcolor{comment}{//\ Yeni\ getter\ metodu}}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_t_v_a07997aec3ed60a2b812bc43b12f07561}{setStatus}}(\textcolor{keywordtype}{bool}\ status);}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_t_v_a0cce69c25a09357be3b0c53e3d6deac0}{getStatus}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00023\ \ \ \ \ QString\ \mbox{\hyperlink{class_t_v_adcbb76762d8f44a30f593fa745318907}{showDetails}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00024\ \};}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00026\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ TV\_H}}
+
+\end{DoxyCode}

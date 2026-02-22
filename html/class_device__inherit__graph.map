@@ -1,0 +1,11 @@
+<map id="Device" name="Device">
+<area shape="rect" id="Node000001" title=" " alt="" coords="162,5,224,32"/>
+<area shape="rect" id="Node000002" href="$class_a_c_system.html" title=" " alt="" coords="5,80,91,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,42,75,82,72,77,153,37"/>
+<area shape="rect" id="Node000003" href="$class_curtains.html" title=" " alt="" coords="114,80,184,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,47,159,81,155,78,175,44"/>
+<area shape="rect" id="Node000004" href="$class_lights.html" title=" " alt="" coords="209,80,266,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="211,44,232,78,227,81,207,47"/>
+<area shape="rect" id="Node000005" href="$class_t_v.html" title=" " alt="" coords="290,80,329,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="228,38,291,78,288,82,225,43"/>
+</map>

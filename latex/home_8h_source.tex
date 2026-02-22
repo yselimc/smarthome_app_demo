@@ -1,0 +1,29 @@
+\doxysection{home.\+h}
+\hypertarget{home_8h_source}{}\label{home_8h_source}\mbox{\hyperlink{home_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ HOME\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ HOME\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <optional>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{room_8h}{Room.h}}"{}}\ \ \textcolor{comment}{//\ Room\ sınıfı\ tanımlanmış\ olmalı}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_home}{Home}}\ \{}
+\DoxyCodeLine{00010\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00011\ \ \ \ \ std::vector<Room>\ rooms;\ \ \textcolor{comment}{//\ Room\ nesnelerinden\ oluşan\ bir\ vektör}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00014\ \ \ \ \ \mbox{\hyperlink{class_home_a2c8cd2120b84253dd74afd730d13bb2f}{Home}}();\ \ \textcolor{comment}{//\ Varsayılan\ constructor}}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_home_a6d866bb6708e03a3be8e45977ec55480}{addRoom}}(\textcolor{keyword}{const}\ std::string\&\ roomName);\ \ \ \ \textcolor{comment}{//\ Yeni\ oda\ ekleme}}
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_home_a2f86405401ec3da07b71bf64b743642d}{removeRoom}}(\textcolor{keyword}{const}\ std::string\&\ roomName);\ \textcolor{comment}{//\ Oda\ silme}}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_home_abfc78b02cf78b61aab3cc967d000f7df}{editRoomName}}(\textcolor{keyword}{const}\ std::string\&\ oldName,\ \textcolor{keyword}{const}\ std::string\&\ newName);\ \textcolor{comment}{//\ Oda\ ismini\ düzenleme}}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \ \ \ \ std::vector<Room>\&\ \mbox{\hyperlink{class_home_ad96eefe4d7081fd8664c6646a4e94e0b}{getRooms}}();\ \ \ \ \textcolor{comment}{//\ Odaları\ döndürme}}
+\DoxyCodeLine{00021\ \};}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ HOME\_H}}
+\DoxyCodeLine{00024\ }
+
+\end{DoxyCode}

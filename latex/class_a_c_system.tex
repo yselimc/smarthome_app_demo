@@ -1,0 +1,150 @@
+\doxysection{ACSystem Class Reference}
+\hypertarget{class_a_c_system}{}\label{class_a_c_system}\index{ACSystem@{ACSystem}}
+
+
+{\ttfamily \#include $<$acsystem.\+h$>$}
+
+
+
+Inheritance diagram for ACSystem\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=144pt]{class_a_c_system__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for ACSystem\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=144pt]{class_a_c_system__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_a_c_system_a81bb6f7020d685d41af4ba7a33868225}{ACSystem}} (const QString \&\mbox{\hyperlink{class_device_adedbff57d1590174c5e9ebf9669b1c2a}{name}}="{}ACSystem"{}, double consumption=0, double temperature=0.\+0, int fan\+Speed=0)
+\item 
+void \mbox{\hyperlink{class_a_c_system_a7d82c91adc28ed5dc21d9b670a2a7d90}{set\+Temperature}} (double new\+Temperature)
+\item 
+void \mbox{\hyperlink{class_a_c_system_a83ae9c8025f60ca714ca86688c713295}{set\+Fan\+Speed}} (int new\+Speed)
+\item 
+double \mbox{\hyperlink{class_a_c_system_a581aef5e2ec615af093df383b3cfcf36}{get\+Temperature}} () const
+\item 
+int \mbox{\hyperlink{class_a_c_system_a4798e067c8bd2192f86e01884e05bb37}{get\+Fan\+Speed}} () const
+\item 
+void \mbox{\hyperlink{class_a_c_system_a4fe46ad421d78b2396843ff31f66e933}{set\+Status}} (bool status)
+\item 
+bool \mbox{\hyperlink{class_a_c_system_a9420a5c07c58d2c548113570a61f3d90}{get\+Status}} () const
+\item 
+QString \mbox{\hyperlink{class_a_c_system_a6992a9c1852f476e7714bdec99a8d9a6}{show\+Details}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_device}{Device}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_device_a64ba12dcc5f4267486c5d545d04dcf68}{Device}} ()
+\item 
+virtual \mbox{\hyperlink{class_device_a9dabc419c8d8df3a686c33ce042bc99a}{\texorpdfstring{$\sim$}{\string~}\+Device}} ()
+\item 
+void \mbox{\hyperlink{class_device_ad38266d8ee53bbe60280a0fc09b0ec90}{set\+Name}} (const QString \&new\+Name)
+\item 
+QString \mbox{\hyperlink{class_device_a794c915dc4c48a34a2d8ad02c7ca413f}{get\+Name}} () const
+\item 
+bool \mbox{\hyperlink{class_device_a03b81a1e311dffbbc0625db1398987a6}{get\+Status}} () const
+\item 
+double \mbox{\hyperlink{class_device_addd76b5e26aa0afe659f06079baf4907}{get\+Consumption\+Per\+Hour}} () const
+\item 
+virtual void \mbox{\hyperlink{class_device_a6b0a2674f57504a5df08f62e85d98578}{turn\+On}} ()
+\item 
+virtual void \mbox{\hyperlink{class_device_a94ab5a01517645d57f8ddbf7218bde85}{turn\+Off}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_device}{Device}}}
+\begin{DoxyCompactItemize}
+\item 
+QString \mbox{\hyperlink{class_device_adedbff57d1590174c5e9ebf9669b1c2a}{name}}
+\item 
+bool \mbox{\hyperlink{class_device_a3465e55b6636cdd1d7444742d1cd9b65}{is\+On}}
+\item 
+double \mbox{\hyperlink{class_device_a763316ae2f800499fd0b801f148c85d8}{consumption\+Per\+Hour}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_a_c_system_a81bb6f7020d685d41af4ba7a33868225}\index{ACSystem@{ACSystem}!ACSystem@{ACSystem}}
+\index{ACSystem@{ACSystem}!ACSystem@{ACSystem}}
+\doxysubsubsection{\texorpdfstring{ACSystem()}{ACSystem()}}
+{\footnotesize\ttfamily \label{class_a_c_system_a81bb6f7020d685d41af4ba7a33868225} 
+ACSystem\+::\+ACSystem (\begin{DoxyParamCaption}\item[{const QString \&}]{name}{ = {\ttfamily "{}ACSystem"{}}, }\item[{double}]{consumption}{ = {\ttfamily 0}, }\item[{double}]{temperature}{ = {\ttfamily 0.0}, }\item[{int}]{fan\+Speed}{ = {\ttfamily 0}}\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{class_a_c_system_a81bb6f7020d685d41af4ba7a33868225_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_a_c_system_a4798e067c8bd2192f86e01884e05bb37}\index{ACSystem@{ACSystem}!getFanSpeed@{getFanSpeed}}
+\index{getFanSpeed@{getFanSpeed}!ACSystem@{ACSystem}}
+\doxysubsubsection{\texorpdfstring{getFanSpeed()}{getFanSpeed()}}
+{\footnotesize\ttfamily \label{class_a_c_system_a4798e067c8bd2192f86e01884e05bb37} 
+int ACSystem\+::get\+Fan\+Speed (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\Hypertarget{class_a_c_system_a9420a5c07c58d2c548113570a61f3d90}\index{ACSystem@{ACSystem}!getStatus@{getStatus}}
+\index{getStatus@{getStatus}!ACSystem@{ACSystem}}
+\doxysubsubsection{\texorpdfstring{getStatus()}{getStatus()}}
+{\footnotesize\ttfamily \label{class_a_c_system_a9420a5c07c58d2c548113570a61f3d90} 
+bool ACSystem\+::get\+Status (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\Hypertarget{class_a_c_system_a581aef5e2ec615af093df383b3cfcf36}\index{ACSystem@{ACSystem}!getTemperature@{getTemperature}}
+\index{getTemperature@{getTemperature}!ACSystem@{ACSystem}}
+\doxysubsubsection{\texorpdfstring{getTemperature()}{getTemperature()}}
+{\footnotesize\ttfamily \label{class_a_c_system_a581aef5e2ec615af093df383b3cfcf36} 
+double ACSystem\+::get\+Temperature (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\Hypertarget{class_a_c_system_a83ae9c8025f60ca714ca86688c713295}\index{ACSystem@{ACSystem}!setFanSpeed@{setFanSpeed}}
+\index{setFanSpeed@{setFanSpeed}!ACSystem@{ACSystem}}
+\doxysubsubsection{\texorpdfstring{setFanSpeed()}{setFanSpeed()}}
+{\footnotesize\ttfamily \label{class_a_c_system_a83ae9c8025f60ca714ca86688c713295} 
+void ACSystem\+::set\+Fan\+Speed (\begin{DoxyParamCaption}\item[{int}]{new\+Speed}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_a_c_system_a4fe46ad421d78b2396843ff31f66e933}\index{ACSystem@{ACSystem}!setStatus@{setStatus}}
+\index{setStatus@{setStatus}!ACSystem@{ACSystem}}
+\doxysubsubsection{\texorpdfstring{setStatus()}{setStatus()}}
+{\footnotesize\ttfamily \label{class_a_c_system_a4fe46ad421d78b2396843ff31f66e933} 
+void ACSystem\+::set\+Status (\begin{DoxyParamCaption}\item[{bool}]{status}{}\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{class_a_c_system_a4fe46ad421d78b2396843ff31f66e933_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_a_c_system_a7d82c91adc28ed5dc21d9b670a2a7d90}\index{ACSystem@{ACSystem}!setTemperature@{setTemperature}}
+\index{setTemperature@{setTemperature}!ACSystem@{ACSystem}}
+\doxysubsubsection{\texorpdfstring{setTemperature()}{setTemperature()}}
+{\footnotesize\ttfamily \label{class_a_c_system_a7d82c91adc28ed5dc21d9b670a2a7d90} 
+void ACSystem\+::set\+Temperature (\begin{DoxyParamCaption}\item[{double}]{new\+Temperature}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_a_c_system_a6992a9c1852f476e7714bdec99a8d9a6}\index{ACSystem@{ACSystem}!showDetails@{showDetails}}
+\index{showDetails@{showDetails}!ACSystem@{ACSystem}}
+\doxysubsubsection{\texorpdfstring{showDetails()}{showDetails()}}
+{\footnotesize\ttfamily \label{class_a_c_system_a6992a9c1852f476e7714bdec99a8d9a6} 
+QString ACSystem\+::show\+Details (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{acsystem_8h}{acsystem.\+h}}\item 
+\mbox{\hyperlink{acsystem_8cpp}{acsystem.\+cpp}}\end{DoxyCompactItemize}

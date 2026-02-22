@@ -1,0 +1,70 @@
+\doxysection{homemanagement.\+h}
+\hypertarget{homemanagement_8h_source}{}\label{homemanagement_8h_source}\mbox{\hyperlink{homemanagement_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ HOMEMANAGEMENT\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ HOMEMANAGEMENT\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <QDialog>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <QListWidget>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <QPushButton>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <QString>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <QInputDialog>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <QMessageBox>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{user_8h}{user.h}}"{}}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{usermanagement_8h}{usermanagement.h}}"{}}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{device_8h}{device.h}}"{}}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{lights_8h}{lights.h}}"{}}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <QVBoxLayout>}\ \ \ \textcolor{comment}{//\ For\ QVBoxLayout}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ <QComboBox>}\ \ \ \ \ \textcolor{comment}{//\ For\ QComboBox}}
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ <QSlider>}\ \ \ \ \ \ \ \textcolor{comment}{//\ For\ QSlider}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ <QCheckBox>}\ \ \ \ \ \textcolor{comment}{//\ For\ QCheckBox}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#include\ <QPushButton>}\ \ \ \textcolor{comment}{//\ For\ QPushButton}}
+\DoxyCodeLine{00019\ \textcolor{preprocessor}{\#include\ <QLabel>}\ \ \ \ \ \ \ \ \textcolor{comment}{//\ For\ QLabel}}
+\DoxyCodeLine{00020\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{tv_8h}{tv.h}}"{}}}
+\DoxyCodeLine{00021\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{curtains_8h}{curtains.h}}"{}}}
+\DoxyCodeLine{00022\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{acsystem_8h}{acsystem.h}}"{}}}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_ui}{Ui}}\ \{}
+\DoxyCodeLine{00025\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_home_management}{HomeManagement}};}
+\DoxyCodeLine{00026\ \}}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_home_management}{HomeManagement}}\ :\ \textcolor{keyword}{public}\ QDialog}
+\DoxyCodeLine{00029\ \{}
+\DoxyCodeLine{00030\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{class_home_management_a6e228ed5a29333ad40886f4d1dd2b57d}{HomeManagement}}(QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00034\ \ \ \ \ \mbox{\hyperlink{class_home_management_a6efe5882c7764cd6c47eaeb79df5c31b}{\string~HomeManagement}}();}
+\DoxyCodeLine{00035\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_home_management_ac8dfcd59d54dc301dcb64dcf8fd55096}{updateRoomList}}();}
+\DoxyCodeLine{00036\ \ \ \ \textcolor{comment}{//\ void\ setUser(User*\ user);}}
+\DoxyCodeLine{00037\ \ \ \ \textcolor{comment}{//\ void\ setUser(User*\ user);}}
+\DoxyCodeLine{00038\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_home_management_a6214079775d70f4d2650c5b39340c784}{loginUser}}(\textcolor{keyword}{const}\ std::string\&\ email,\ \textcolor{keyword}{const}\ std::string\&\ password);}
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_home_management_a56e1e2a257cb5bcdccfcaa4d0b0d88bd}{addDeviceToListWidget}}(QListWidget*\ listWidget,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_room}{Room}}\&\ room);}
+\DoxyCodeLine{00040\ }
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00042\ \textcolor{keyword}{private}\ slots:}
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_addRoomButton\_clicked();}
+\DoxyCodeLine{00044\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_removeRoomButton\_clicked();}
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_editRoomButton\_clicked();}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_pushButton\_clicked();}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00049\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_addDeviceButton\_clicked();}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00051\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_SelectedListWidget\_clicked(\textcolor{keyword}{const}\ QModelIndex\ \&index);}
+\DoxyCodeLine{00052\ }
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_SelectedListWidget\_doubleClicked(\textcolor{keyword}{const}\ QModelIndex\ \&index);}
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00055\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_removeDeviceButton\_clicked();}
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00057\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00058\ \ \ \ \ \mbox{\hyperlink{class_ui_1_1_home_management}{Ui::HomeManagement}}\ *ui;}
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keywordtype}{int}\ roomCounter\ =\ 1;\ \textcolor{comment}{//\ Oda\ isimlerini\ takip\ etmek\ için\ sayaç}}
+\DoxyCodeLine{00060\ \ \ \ \ \mbox{\hyperlink{class_user}{User}}*\ currentUser;}
+\DoxyCodeLine{00061\ \textcolor{keywordtype}{bool}\ isLoggedIn\ =\ \textcolor{keyword}{false};}
+\DoxyCodeLine{00062\ \};}
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00064\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ HOMEMANAGEMENT\_H}}
+\DoxyCodeLine{00065\ }
+
+\end{DoxyCode}

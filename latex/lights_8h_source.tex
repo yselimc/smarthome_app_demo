@@ -1,0 +1,33 @@
+\doxysection{lights.\+h}
+\hypertarget{lights_8h_source}{}\label{lights_8h_source}\mbox{\hyperlink{lights_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ LIGHTS\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ LIGHTS\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{device_8h}{Device.h}}"{}}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_lights}{Lights}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_device}{Device}}\ \{}
+\DoxyCodeLine{00007\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00008\ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_lights_ae2dc267d216acf7bb0179a74e5cd15a5}{lightCounter}};}
+\DoxyCodeLine{00009\ \ \ \ \ \mbox{\hyperlink{class_lights_a2faa007236ac46b409fcbf54aa842b57}{Lights}}(\textcolor{keywordtype}{double}\ consumption,\ \textcolor{keyword}{const}\ QString\&\ defaultColor\ =\ \textcolor{stringliteral}{"{}White"{}},\ \textcolor{keywordtype}{int}\ defaultBrightness\ =\ 50);}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_lights_af763ca5a25513fa0950e76eba5d85901}{setColor}}(\textcolor{keyword}{const}\ QString\&\ newColor);}
+\DoxyCodeLine{00012\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_lights_aa01f0689cf46546a5fee70735aa5921a}{setBrightness}}(\textcolor{keywordtype}{int}\ newBrightness);}
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_lights_a841e60fa526be3b3163246b9f4f9d272}{setStatus}}(\textcolor{keywordtype}{bool}\ status);}
+\DoxyCodeLine{00014\ \ \ \ \ QString\ \mbox{\hyperlink{class_lights_ab9514e803d9d4204ffcc15e2636ec012}{getColor}}()\ \textcolor{keyword}{const};\ \ \ \ \ \ \ \ \textcolor{comment}{//\ Getter\ for\ color}}
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_lights_a09a1796b5e9b92e31ecb644405a75030}{getBrightness}}()\ \textcolor{keyword}{const};\ \ \ \ \ \ \ \textcolor{comment}{//\ Getter\ for\ brightness}}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_lights_aa0b63187e26d3ce1bc844ec284588a01}{isOn}}()\ \textcolor{keyword}{const};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Getter\ for\ isOn}}
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_lights_a50931f6437b596ce2984b2157b31459e}{showDetails}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00018\ \ \ \ \ QString\ \mbox{\hyperlink{class_lights_ac2b41c8b55d90041e1405bc4a1beaff9}{getLightInfo}}()\ \textcolor{keyword}{const};\ \ \ \ \textcolor{comment}{//\ New\ method\ to\ return\ formatted\ string\ with\ light\ details}}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_lights_affe38f10ac242db1f67229703ca31b06}{getStatus}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00022\ \ \ \ \ QString\ color;}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{int}\ brightness;}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{bool}\ status;\ \ \textcolor{comment}{//\ Renamed\ member\ variable\ to\ avoid\ conflict}}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{double}\ consumptionPerHour;}
+\DoxyCodeLine{00026\ \};}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ LIGHTS\_H}}
+
+\end{DoxyCode}

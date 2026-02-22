@@ -1,0 +1,35 @@
+\doxysection{room.\+h}
+\hypertarget{room_8h_source}{}\label{room_8h_source}\mbox{\hyperlink{room_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ ROOM\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ ROOM\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{device_8h}{Device.h}}"{}}\ \ \textcolor{comment}{//\ Device\ sınıfını\ dahil\ ettik}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_room}{Room}}\ \{}
+\DoxyCodeLine{00009\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00010\ \ \ \ \ std::string\ name;\ \ \textcolor{comment}{//\ Oda\ ismi}}
+\DoxyCodeLine{00011\ \ \ \ \ std::vector<Device*>\ devices;\ \ \textcolor{comment}{//\ Device\ pointer'larını\ tutan\ vektör}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{comment}{//\ Constructor}}
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{class_room_ab932b4d5bafaac3998fcead3baafea08}{Room}}(\textcolor{keyword}{const}\ std::string\&\ name);}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{comment}{//\ Getter\ ve\ Setter\ metodları}}
+\DoxyCodeLine{00018\ \ \ \ \ std::string\ \mbox{\hyperlink{class_room_a767de198f529425dd4ba81810e44d6e4}{getName}}()\ \textcolor{keyword}{const};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Oda\ adını\ almak\ için}}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_room_a1f114f5f39394b2d9a089017eae0ee26}{setName}}(\textcolor{keyword}{const}\ std::string\&\ newName);\ \textcolor{comment}{//\ Oda\ adını\ değiştirmek\ için}}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{comment}{//\ Karşılaştırma\ operatörü}}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_room_af97379a8ef63e9bf5ce5b0f8be4301c4}{operator==}}(\textcolor{keyword}{const}\ std::string\&\ otherName)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{comment}{//\ Cihaz\ ekleme\ ve\ cihaz\ listesini\ alma}}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_room_a43960d85d046a4afbb607fc327878658}{addDevice}}(\mbox{\hyperlink{class_device}{Device}}*\ device);}
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_room_a52c3ce0260faf73386f4c8b78f15a8c5}{removeDevice}}(\textcolor{keyword}{const}\ QString\&\ deviceName);}
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keyword}{const}\ std::vector<Device*>\&\ \mbox{\hyperlink{class_room_a5740c956a5931d8da0ee222437e846b8}{getDevices}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00028\ \};}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ ROOM\_H}}
+
+\end{DoxyCode}
