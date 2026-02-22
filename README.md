@@ -52,47 +52,46 @@ what functions the system will provide, how it will interact with users, and how
 ## Project Structure
 
 
-itsc_wavelet_project/
+smarthome_app_demo/
 │
 ├── src/
 │   ├── core/                       # Core system components
-│   │   ├── acsystem.cpp             # Air conditioning system logic
-│   │   ├── acsystem.h               # Header for air conditioning system
-│   │   ├── curtains.cpp             # Curtain control logic
-│   │   ├── curtains.h               # Header for curtain control
-│   │   ├── device.cpp               # Generic device logic
-│   │   ├── lights.cpp               # Lighting control logic
-│   │   ├── lights.h                 # Header for lighting control
-│   │   ├── room.cpp                 # Room logic
-│   │   ├── room.h                   # Header for room logic
-│   │   ├── tv.cpp                   # TV control logic
-│   │   ├── tv.h                     # Header for TV control
-│   │   ├── user.cpp                 # User logic
-│   │   ├── user.h                   # Header for user logic
-│   │   ├── homemanagement.cpp       # Home management logic
-│   │   ├── homemanagement.h         # Header for home management
-│   │   ├── homemanagement.ui        # UI for home management
-│   │   ├── login.cpp                # Login logic
-│   │   ├── login.h                  # Header for login logic
-│   │   ├── login.ui                 # UI for login system
-│   │   ├── usermanagement.cpp       # User management logic
-│   │   ├── usermanagement.h         # Header for user management
-│   │   ├── usermanagementsystem.cpp # Core logic for user management system
-│   │   ├── usermanagementsystem.h   # Header for user management system
-│   │   └── usermanagementsystem.ui  # UI for user management system
+│   │   ├── acsystem.cpp
+│   │   ├── acsystem.h
+│   │   ├── curtains.cpp
+│   │   ├── curtains.h
+│   │   ├── device.cpp
+│   │   ├── lights.cpp
+│   │   ├── lights.h
+│   │   ├── room.cpp
+│   │   ├── room.h
+│   │   ├── tv.cpp
+│   │   ├── tv.h
+│   │   ├── user.cpp
+│   │   ├── user.h
+│   │   ├── homemanagement.cpp
+│   │   ├── homemanagement.h
+│   │   ├── homemanagement.ui
+│   │   ├── login.cpp
+│   │   ├── login.h
+│   │   ├── login.ui
+│   │   ├── usermanagement.cpp
+│   │   ├── usermanagement.h
+│   │   ├── usermanagementsystem.cpp
+│   │   ├── usermanagementsystem.h
+│   │   └── usermanagementsystem.ui
 │   │
-│   ├── main.cpp                     # Entry point of the application
-│   ├── CMakeLists.txt               # Build configuration file
-│   ├── images.qrc                   # Resource file for images
-│   └── img.qrc                      # Alternative resource file
+│   ├── main.cpp
+│   ├── CMakeLists.txt
+│   ├── images.qrc
+│   └── img.qrc
 │
 ├── assets/
-│   └── images/                      # Images and media files
+│   └── images/
 │
-├── build/                           # Compiled binaries and object files
+├── build/
 │
-└── README.md                        # Project documentation
-
+└── README.md
 
 ## Usage
 
